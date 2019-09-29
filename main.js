@@ -38,12 +38,12 @@ function play(note) {
 		case 'C':
 		case 'Gb':
 			noteDiv.classList.add('note-y');
-			noteDiv.style.left = `${randInt(0, window.innerWidth - 200)}px`;
+			noteDiv.style.left = `${randInt(0, window.innerWidth - 100)}px`;
 			break;
 		case 'Eb':
 		case 'A':
 			noteDiv.classList.add('note-x');
-			noteDiv.style.bottom = `${randInt(0, window.innerHeight - 200)}px`;
+			noteDiv.style.bottom = `${randInt(0, window.innerHeight - 100)}px`;
 			break;
 		case 'Db':
 		case 'F':
@@ -56,12 +56,12 @@ function play(note) {
 			noteDiv.style.left = `${randInt(0, window.innerWidth + .57*window.innerHeight)}px`;
 			break;
 		case 'Ab':
-		case 'Bb':
+		case 'E':
 			noteDiv.classList.add('note-x');
 			noteDiv.style.bottom = `${randInt(-.57*window.innerWidth, window.innerHeight)}px`;
 			break;
 		case 'D':
-		case 'E':
+		case 'Bb':
 			noteDiv.classList.add('note-x');
 			noteDiv.style.bottom = `${randInt(0, window.innerHeight + .57*window.innerWidth)}px`;
 			break;
