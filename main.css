@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+}
+
+.note-y {
+	position: absolute;
+	width: 100px;
+	animation: 1.5s slide-y;
+}
+
+.note-x {
+	position: absolute;
+	height: 100px;
+	animation: 1.5s slide-x;
+}
+
+.C {
+	top: 0;
+	background-color: rgba(255, 0, 0, 0.5);
+}
+.Gb {
+	bottom: 0;
+	background-color: rgba(0, 255, 255, 0.5);
+}
+.Eb {
+	left: 0;
+	background-color: rgba(127, 0, 255, 0.5);
+}
+.A {
+	right: 0;
+	background-color: rgba(128, 255, 0, 0.5);
+}
+.G {
+	top: 0;
+	background-color: rgba(255, 128, 0, 0.5);
+	transform: rotate(30deg);
+	transform-origin: top right;
+}
+.D {
+	right: 0;
+	background-color: rgba(255, 255, 0, 0.5);
+	transform: rotate(-30deg);
+	transform-origin: top right;
+}
+.Db {
+	bottom: 0;
+	background-color: rgba(0, 127, 255, 0.5);
+	transform: rotate(30deg);
+	transform-origin: bottom left;
+}
+.Ab {
+	left: 0;
+	background-color: rgba(0, 0, 255, 0.5);
+	transform: rotate(-30deg);
+	transform-origin: bottom left;
+}
+.F {
+	top: 0;
+	background-color: rgba(255, 0, 128, 0.5);
+	transform: rotate(-30deg);
+	transform-origin: top left;
+}
+.Bb {
+	left: 0;
+	background-color: rgba(255, 0, 255, 0.5);
+	transform: rotate(30deg);
+	transform-origin: top left;
+}
+.B {
+	bottom: 0;
+	background-color: rgba(0, 255, 128, 0.5);
+	transform: rotate(-30deg);
+	transform-origin: bottom right;
+}
+.E {
+	right: 0;
+	background-color: rgba(0, 255, 0, 0.5);
+	transform: rotate(30deg);
+	transform-origin: bottom right;
+}
+
+@keyframes slide-y {
+	0% {
+		height: 0;
+	}
+	25% {
+		height: 150%;
+	}
+	75% {
+		height: 150%;
+	}
+	100% {
+		height: 0;
+	}
+}
+
+@keyframes slide-x {
+	0% {
+		width: 0;
+	}
+	25% {
+		width: 150%;
+	}
+	75% {
+		width: 150%;
+	}
+	100% {
+		width: 0;
+	}
+}
