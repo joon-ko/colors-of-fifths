@@ -9,6 +9,7 @@ you can use your computer keyboard as a piano:
 |W|C#/D♭|
 |S|D|
 |E|D#/E♭|
+|D|E|
 |F|F|
 |T|F#/G♭|
 |G|G|
@@ -18,3 +19,7 @@ you can use your computer keyboard as a piano:
 |J|B|
 
 the motivational sketch behind the idea is included as `sketch.png`. there are some interesting relationships between colors and chords that i'll probably use this project to explore a bit more!
+
+# steps to run
+
+clone this repo and open `main.html`.
