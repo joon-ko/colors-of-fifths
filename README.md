@@ -9,6 +9,7 @@ you can use your computer keyboard as a piano:
 |W|C#/D♭|
 |S|D|
 |E|D#/E♭|
+|D|E|
 |F|F|
 |T|F#/G♭|
 |G|G|
