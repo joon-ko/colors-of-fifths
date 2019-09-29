@@ -17,5 +17,3 @@ you can use your computer keyboard as a piano:
 |H|A|
 |U|A#/B♭|
 |J|B|
-
-the motivational sketch behind the idea is included as `sketch.png`. there are some interesting relationships between colors and chords that i'll probably use this project to explore a bit more!
