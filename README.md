@@ -1,5 +1,5 @@
 # overview
-**colors of fifths** is an intersection of the (RGB) [color wheel](https://en.wikipedia.org/wiki/Color_wheel) with the [circle of fifths](https://en.wikipedia.org/wiki/Circle_of_fifths). namely, you can traverse the color wheel clockwise by playing the circle of fifths, and you can traverse the wheel counterclockwise by playing the circle of fourths.
+[**colors of fifths**](http://joonho.space/color) is an intersection of the (RGB) [color wheel](https://en.wikipedia.org/wiki/Color_wheel) with the [circle of fifths](https://en.wikipedia.org/wiki/Circle_of_fifths). namely, you can traverse the color wheel clockwise by playing the circle of fifths, and you can traverse the wheel counterclockwise by playing the circle of fourths.
 
 you can use your computer keyboard as a piano:
 
